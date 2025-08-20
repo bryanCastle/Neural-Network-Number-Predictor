@@ -1,6 +1,6 @@
-# Neural Network from Scratch - MNIST Digit Classification
+# Neural Network from Scratch
 
-A comprehensive implementation of a feedforward neural network built entirely from scratch using NumPy, designed for MNIST digit classification. This project demonstrates fundamental deep learning concepts including backpropagation, gradient descent, and neural network architecture.
+A comprehensive implementation of a feedforward neural network built entirely from scratch by following an educational program using NumPy, designed for MNIST digit classification. This project demonstrates fundamental deep learning concepts including backpropagation, gradient descent, and neural network architecture.
 
 ## 🎯 Project Overview
 
