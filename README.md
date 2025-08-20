@@ -1,8 +1,8 @@
 # Neural Network from Scratch
 
-A comprehensive implementation of a feedforward neural network built entirely from scratch by following an educational program using NumPy, designed for MNIST digit classification. This project demonstrates fundamental deep learning concepts including backpropagation, gradient descent, and neural network architecture.
+A comprehensive implementation of a feedforward neural network built entirely from scratch by using NumPy, designed for MNIST digit classification. This project demonstrates fundamental deep learning concepts including backpropagation, gradient descent, and neural network architecture.
 
-## 🎯 Project Overview
+## Project Overview
 
 This repository contains a complete neural network implementation that achieves **~95% accuracy** on the MNIST test set. The implementation includes:
 
@@ -10,6 +10,11 @@ This repository contains a complete neural network implementation that achieves 
 - **Complete Training Pipeline**: Forward/backward propagation with gradient descent
 - **Interactive Drawing App**: Real-time digit prediction interface
 - **Educational Focus**: Well-documented code with AI/ML keywords for learning
+- **Interactive Drawing Application (`digitGuesser.py`)**: Real-time digit prediction interface where users can draw digits and get instant AI predictions
+- 
+<img width="891" height="720" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/74acf01d-0ce1-47d8-87ee-0ecbf956ff5d" />
+<img width="891" height="715" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/ce6809e9-98d8-47dc-8983-81af09094fab" />
+<img width="892" height="724" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/c349c9ce-a89b-4b85-9432-5e4bcd71ca51" />
 
 ## 🏗️ Architecture
 
@@ -103,7 +108,7 @@ weights = weights - learning_rate * weight_gradients
 
 ## 🎨 Interactive Drawing Application
 
-The `digit_drawing_app_preview.py` provides a real-time digit recognition interface:
+The `digitGuesser` provides a real-time digit recognition interface:
 
 - **28×28 Drawing Canvas**: Pixel-perfect MNIST format
 - **Real-time Prediction**: Instant AI predictions with confidence scores
@@ -203,7 +208,7 @@ Contributions are welcome! Areas for improvement:
 
 ## 📄 License
 
-This project is for educational purposes. Feel free to use and modify for learning and research.
+This project is for educational purposes, made by watching online tutorials. Feel free to use and modify for learning and research.
 
 ---
 
